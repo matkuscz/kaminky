@@ -1,1 +1,7 @@
 $ ruby -a -F, -i -ne 'puts $F.values_at(1,0,2,3).join("\t")' vstup
+
+Pro kazdy radek v souboru vstup, automaticky rozdel tento radek na pole polozek, pojmenovanych $F -> to dela prepinac (-a)
+Pouzij carky, jako oddelovace polozek -> to dela prepinac (-F,)
+A vypis radek, skladajici se z druhe, prvni, treti a ctrvte polozky
+Jednotlive polozky budou spojeny tabulatorem
+Puvodni soubor bude prepsan
