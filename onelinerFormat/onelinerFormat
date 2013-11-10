@@ -1,0 +1,1 @@
+$ ruby -a -F, -i -ne 'puts $F.values_at(1,0,2,3).join("\t")' vstup
