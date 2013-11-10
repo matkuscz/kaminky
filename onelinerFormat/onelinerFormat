@@ -4,4 +4,4 @@ Pro kazdy radek v souboru vstup, automaticky rozdel tento radek na pole polozek,
 Pouzij carky, jako oddelovace polozek -> to dela prepinac (-F,)
 A vypis radek, skladajici se z druhe, prvni, treti a ctrvte polozky
 Jednotlive polozky budou spojeny tabulatorem
-Puvodni soubor bude prepsan
+Puvodni soubor bude prepsan -> prepinac (-i)
